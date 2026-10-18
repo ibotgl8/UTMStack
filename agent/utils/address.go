@@ -44,6 +44,4 @@ func GetIPAddress() (string, error) {
 
 	return "", errors.New("no usable IPv4 address found on Wi-Fi interface")
 }
-
-	return "", errors.New("failed to get IP address")
-}
+ 
